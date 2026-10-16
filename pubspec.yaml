@@ -1,0 +1,17 @@
+name: lan_iperf
+description: Windows and Android graphical iperf3 LAN client with live charts.
+publish_to: none
+version: 1.3.7+12
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^10.3.0
+  shared_preferences: ^2.5.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true

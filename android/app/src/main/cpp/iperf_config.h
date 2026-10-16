@@ -1,0 +1,28 @@
+#ifndef LAN_IPERF_CONFIG_H
+#define LAN_IPERF_CONFIG_H
+#define HAVE_CLOCK_GETTIME 1
+#define HAVE_DLFCN_H 1
+#define HAVE_ENDIAN_H 1
+#define HAVE_GETLINE 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_LINUX_TCP_H 1
+#define HAVE_POLL_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDIO_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_STRING_H 1
+#define HAVE_SYS_SOCKET_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_TCP_CONGESTION 1
+#define HAVE_TCP_USER_TIMEOUT 1
+#define HAVE_SO_BINDTODEVICE 1
+#define STDC_HEADERS 1
+#define PACKAGE "iperf"
+#define PACKAGE_NAME "iperf"
+#define PACKAGE_VERSION "3.15"
+#define PACKAGE_STRING "iperf 3.15"
+#define VERSION "3.15"
+#endif
